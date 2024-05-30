@@ -2,19 +2,19 @@
 
 This project contains several scripts to automate tasks in GTA. Here's a brief overview of each script:
 
-## [autoGym.py](src/gtaGrind/autoGym.py)
+## [autoGym.py](autoGym.py)
 
 This script is used to automate the gym tasks in GTA. 
 
-## [autoMovement.py](src/gtaGrind/autoMovement.py)
+## [autoMovement.py](autoMovement.py)
 
 This script is used to automate character movement in GTA.
 
-## [autoSmoothie.py](src/gtaGrind/autoSmoothie.py)
+## [autoSmoothie.py](autoSmoothie.py)
 
 This script is used to automate the process of making smoothies in GTA.
 
-## [getCursor.py](src/gtaGrind/getCursor.py)
+## [getCursor.py](getCursor.py)
 
 This script is used to get the current position of the cursor in GTA.
 
