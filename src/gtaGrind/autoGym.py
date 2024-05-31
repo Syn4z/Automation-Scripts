@@ -32,8 +32,11 @@ def performActions():
     
     for _ in range(5):
         keyboard.press('i')
+        time.sleep(0.1)
         keyboard.release('i')
+        time.sleep(1)
         mouse.position = cursorPosition
+        time.sleep(1)
         mouse.click(Button.right)
         time.sleep(7)
 
