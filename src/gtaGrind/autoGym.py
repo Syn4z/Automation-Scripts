@@ -8,10 +8,9 @@ import threading
 
 # Define the target color and threshold
 targetColor = (120, 255, 166)
-threshold = 15
+threshold = 10
 
-# Define the coordinates for the cursor to move to
-cursorPosition = (1494, 381)  # Adjust these coordinates as needed
+cursorPosition = (1494, 381)
 
 # Define the main loop interval
 mainLoopInterval = 30 * 60  # 30 minutes in seconds

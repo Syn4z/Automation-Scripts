@@ -31,13 +31,20 @@ def perform_actions():
             # Run the cooking loop for 5 minutes 30 seconds
             startTime = time.time()
             while time.time() - startTime < 330:
+                if stopScript.is_set():
+                    return
                 for i, pos in enumerate(cooking):
+                    if stopScript.is_set():
+                        return
                     pyautogui.moveTo(pos[0], pos[1], duration=0.05)
                     if i < 3:
                         pyautogui.rightClick()
                     else:
                         pyautogui.leftClick()
                 time.sleep(5.5)
+            
+            if stopScript.is_set():
+                return
             
             keyboardController.press(keyboard.Key.esc)
             time.sleep(0.1)
